@@ -1,9 +1,30 @@
-<div>
+<h2>Services</h2>
 
-    <div *ngFor="let i of myData">
 
-        {{i.service}}
-        {{i.price}}
+
+
+<div class=" d-flex gap-1 h-auto">
+
+
+
+    <div *ngFor="let i of myData"
+        class=" h-50  border-black border-end border-bottom border-4 d-flex p-1 w-100 justify-content-evenly gap-1"
+        style="--bs-border-opacity: .5;">
+
+        <div class=" w-50 border-4  border-warning border-bottom border-top">
+            <img src="{{i.pic}}" alt="" class=" " style="height: 400px; width:100%;">
+
+        </div>
+
+        <div class=" border-dark-subtle border-bottom border-top border-3  h-100 w-50 mt-5 fw-large p-2">
+            <h2>{{i.service}}</h2>
+            <p>{{i.details}}</p>
+            <p>{{i.price}}</p>
+
+            <div class="d-flex w-100 justify-content-center">
+                <button class="btn btn-dark ">View</button>
+            </div>
+        </div>
 
     </div>
 
