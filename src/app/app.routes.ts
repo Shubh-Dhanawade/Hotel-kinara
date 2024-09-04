@@ -6,19 +6,19 @@ import { ContactUsComponent } from './Pages/contact-us/contact-us.component';
 
 export const routes: Routes = [
     {
-        path:'home',
-        component:HomeComponent
+        path: '',
+        component: HomeComponent
     },
     {
-        path:'service',
-        component:ServicesComponent
+        path: 'service',
+        component: ServicesComponent
     },
     {
-        path:'about',
-        component:AboutUsComponent
+        path: 'about',
+        component: AboutUsComponent
     },
     {
-        path:'contact',
-        component:ContactUsComponent
+        path: 'contact',
+        component: ContactUsComponent
     }
 ];
