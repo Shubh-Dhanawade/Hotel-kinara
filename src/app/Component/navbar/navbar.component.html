@@ -1,4 +1,4 @@
-<header class="bg-dark text-white py-3">
+<header class="bg-dark text-white py-3 ">
   <nav class="navbar navbar-expand-lg navbar-dark container">
     <a class="navbar-brand" href="#">Hotel Kinara</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -6,12 +6,15 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
+      <ul class="navbar-nav ml-auto gap-2">
 
-        <li class="nav-item"><a class="nav-link" routerLink="/">Home</a></li>
-        <li class="nav-item"><a class="nav-link" routerLink="about">About us</a></li>
-        <li class="nav-item"><a class="nav-link" routerLink="service">Services</a></li>
-        <li class="nav-item"><a class="nav-link" routerLink="contact">Contact</a></li>
+  
+        <li class="nav-item"><a class="nav-link" routerLink="/" routerLinkActive="active"
+            [routerLinkActiveOptions]="{exact:true}">Home</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink="about" routerLinkActive="active">About us</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink="service" routerLinkActive="active">Services</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink="contact" routerLinkActive="active">Contact</a></li>
+
 
       </ul>
     </div>
