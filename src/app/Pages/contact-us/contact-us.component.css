@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.img{
+
+
+
+    width: 100%;
+    height: 100%;
+    background-image: url(./../../../assets/46190-hotel-malvivy-pool-interior-ocean-sea-houses-buildings-sky-sunset-1-748x496.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: 100%;
+    
+    
+
+}
+
+label{
+    font-size: 20px;
+    color: rgb(7, 7, 7);
+}
+
+input{
+
+    background-color: transparent;
+
+
+
+}
