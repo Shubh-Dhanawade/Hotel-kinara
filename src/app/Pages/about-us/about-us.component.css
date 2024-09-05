@@ -1,0 +1,29 @@
+.aboutp{
+    border: solid 2px gold;
+    padding: 5% 5%;
+    background-color: whitesmoke;
+    filter: drop-shadow(0 0 5px grey);
+}
+.container>h1{
+    align-items: center;
+    text-align: center;
+}
+.contener{
+    margin:100px 0 0 200px;
+    width:70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+}
+.contener img{
+    width: 25%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: solid 2px whitesmoke;
+    transition: all ease-in-out 0.5s;
+}
+.contener img:hover{
+    width: 40%;
+}
